@@ -23,7 +23,7 @@ $EU = $_GET["EU"];
 echo "Result: " . myCalculator($AED, $oper, $EU);
 */
 
-
+/*
 if (isset($_GET["submit"])) {
     $cc_input = $_GET["input"];
     $cc_dropdown = $_GET["dropdown"];
@@ -36,3 +36,4 @@ if (isset($_GET["submit"])) {
         echo "<h1> " . number_format($output, 2) . " Dubai Dirham" . "</h1>";
     }
 }
+*/
