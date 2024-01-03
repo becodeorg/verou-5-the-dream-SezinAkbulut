@@ -36,10 +36,10 @@
         $to = $_GET["to"];
         $amount = $_GET["amount"];
 
-        if ($from == "EUR" && $to == "AED") {
+        if ($from == "AED" && $to == "EUR") {
             $output = $amount * 0.2485;
             echo "<span>" . number_format($output, 2) . " Euro" . "</span>";
-        } else if ($from == "AED" && $to == "EUR") {
+        } else if ($from == "EUR" && $to == "AED") {
             $output = $amount * 4.0237;
             echo "<span>" . number_format($output, 2) . " Dubai Dirham" . "</span>";
         }
