@@ -20,9 +20,18 @@
         }
         h1{
             color: white;
+            text-align: center;
         }
         span{
             color: seagreen;
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+        }
+        .btn{
+            display: block;
+            margin: auto;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -49,15 +58,7 @@
 
 
 <form action="index.php" method="get">
-  <!--  <input type="text" name="AED" placeholder="AED">
-    <select name="oper">
-        <label>Choose currency</label>
-        <option value="add">Add</option>
-        <option value="sub">Subtract</option>
-    </select>
-    <input type="text" name="EU" placeholder="EU">
-    <button type="submit">Calculate!</button>
-    -->
+
     <div class="form-group">
     <label for="from">From:</label>
     <input type="text" name="from" class="form-control" placeholder="Enter Currency">
