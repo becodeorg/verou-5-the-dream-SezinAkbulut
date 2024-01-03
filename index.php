@@ -7,6 +7,11 @@
 <body>
 <form action="functions.php" method="get">
     <input type="text" name="AED" placeholder="AED">
+    <select name="oper">
+        <label>Choose currency</label>
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+    </select>
 </form>
 </body>
 </html>
