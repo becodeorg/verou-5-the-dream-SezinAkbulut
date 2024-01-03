@@ -13,6 +13,7 @@
         <option value="sub">Subtract</option>
     </select>
     <input type="text" name="EU" placeholder="EU">
+    <button type="submit">Calculate!</button>
 </form>
 </body>
 </html>
