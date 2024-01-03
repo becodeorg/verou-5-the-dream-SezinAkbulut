@@ -12,6 +12,7 @@
         <option value="add">Add</option>
         <option value="sub">Subtract</option>
     </select>
+    <input type="text" name="EU" placeholder="EU">
 </form>
 </body>
 </html>
